@@ -100,12 +100,12 @@ With an installed Docker environment and a started engine you can now run the
 Docker container by typing the following command in a terminal on the folder 
 where you have this downloaded repository:
 
-**Note: The first time you are running this command it will take some time depending on your notebook and internet connection.**
-**It will only take that long the first time you run this command. All following start-ups should be quick.**
-
 ```
 docker compose up
 ```
+
+**Note: The first time you are running this command it will take some time depending on your notebook and internet connection.**
+**It will only take that long the first time you run this command. All following start-ups should be quick.**
 
 You will need to run this command in this folder everytime you want to start up 
 the jupyter notebook for these courses. The data you created/modified in the
