@@ -83,16 +83,22 @@ instuctions given [here](https://docs.docker.com/engine/install/ubuntu/).
 
 ## 2. How to Setup
 ### Clone this Repository
-Clone this repository and go into the root directory of the repository.
+Clone this repository and go into the root directory of the repository by typing 
+the following commands in a terminal:
 
 ```
 git clone https://github.com/uma-pi1/ml-docker
 cd ml-docker
 ```
 
+Alternatively, you can click on the "Code" button on the top right of this page 
+and click "Download ZIP". Then you need
+to decompress the ZIP file into a new folder.
+
 ### Pull and Start the Docker Container
 With an installed Docker environment and a started engine you can now run the 
-Docker container.
+Docker container by typing the following command in a terminal on the folder 
+where you have this downloaded repository:
 
 **Note: The first time you are running this command it will take some time depending on your notebook and internet connection.**
 **It will only take that long the first time you run this command. All following start-ups should be quick.**
