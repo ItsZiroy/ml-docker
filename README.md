@@ -120,9 +120,20 @@ notebook started:
 docker compose up
 ```
 
-After this, the terminal will start a Jupyter server and provide a link to the
-notebook. Click on that link and your browser will open and show the jupyter
-notebook. After this, you can use the file manager to the left of the Jupyter
-notebook to create folders, upload files and download files after you have 
-worked on them. Use these operations to upload the assignment data and code, 
-and then to download your work to hand it in.
+You can access JupyterLab on
+
+[http://localhost:8888](http://localhost:8888)
+
+**If you see a prompt asking you for a token or password type `ml`.**
+
+### 7.1 Transfer Between Host and Notebook
+
+All files placed in the folder `./shared` located in the root directory of this repository on your host machine will directly appear in your jupyter lab environment.
+Vice versa, notebooks created in jupyter lab will directly be stored in the folder `./shared` on your host machine.
+
+### 7.2 Misc
+
+The default user name in JupyterLab is `jovyan`.
+
+*""Jovyan is often a special term used to describe members of the Jupyter community. It is also used as the user ID in the Jupyter Docker stacks or referenced in conversations."*
+For more information see [here](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/faq.html#who-is-jovyan).

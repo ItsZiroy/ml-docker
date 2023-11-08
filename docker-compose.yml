@@ -2,12 +2,11 @@ version: "3.9"
 services:
   ml_notebook:
     container_name: ml_notebook
-    build: .
+    build: ./ml_notebook
     ports:
       - "8888:8888"
     volumes:
-      - type: volume
-        source: ml_notebook
-        target: /data
-volumes:
-  ml_notebook:
+      - ./shared:/home/jovyan
+    environment:
+      - PASSWORD=ml
+      - JUPYTER_TOKEN=ml
