@@ -10,3 +10,4 @@ services:
     environment:
       - PASSWORD=ml
       - JUPYTER_TOKEN=ml
+      - JUPYTER_RUNTIME_DIR=/tmp/jupyter_runtime/
