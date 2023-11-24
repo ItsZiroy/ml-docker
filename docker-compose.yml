@@ -2,7 +2,7 @@ version: "3.9"
 services:
   ml_notebook:
     container_name: ml_notebook
-    build: ./ml_notebook
+    build: .
     ports:
       - "8888:8888"
     volumes:
