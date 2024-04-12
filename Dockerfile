@@ -9,6 +9,7 @@ RUN pip3 install --no-cache-dir pkgconfig black cairocffi graphviz importmagic m
 RUN pip3 install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 RUN pip install ipympl
 RUN pip install nodejs
+RUN pip install torchtext lightning tensorboard
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
 RUN jupyter labextension install jupyter-matplotlib
 
