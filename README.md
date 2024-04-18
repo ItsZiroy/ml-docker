@@ -16,6 +16,12 @@ contains:
 - torch
 - pystan 
 
+As of April 2024, this environment additionally contains:
+
+- Tensorboard
+- PyTorch Lightning
+- torchtext
+
 ## Table of contents
 
 1. [Installing Docker](#1-install-docker)
