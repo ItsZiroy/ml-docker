@@ -110,6 +110,24 @@ where you have this downloaded repository:
 docker compose up
 ```
 
+### Running on Mac
+
+If you are running on Mac, use the following commands once to build the image and install rosetta:
+
+```bash
+# This will install rosetta to accelerate x86_64 emulations on mac
+softwareupdate --install-rosetta
+
+# This will build the image with mac os options enabled
+docker compose build --build-arg OS_NAME=macOS
+```
+
+After that always start the container with 
+
+```bash
+docker compose up
+```
+
 **Note: The first time you are running this command it will take some time depending on your notebook and internet connection.**
 **It will only take that long the first time you run this command. All following start-ups should be quick.**
 
